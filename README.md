@@ -1,0 +1,3 @@
+# ProjetasProject
+    Faz o ETL de dados de VRA (registros de voos das empresas) em formato json, AIR_CIA (cadastro da Cia Aérea) que são fornecidos pela empresa em formato csv, já os dados de cadastro dos aeródromos são extraídos via API do site airpor-info em formato json.
+    Transforma esses dados e ingere o resultado em arquivos csv distintos em cada uma das categorias a que pertencem, e por fim, gera alguns resultados como: Rota de maior uso por Cia e Cia com maior atuação por aeródromo.
