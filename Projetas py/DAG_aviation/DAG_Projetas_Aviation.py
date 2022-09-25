@@ -82,6 +82,6 @@ with DAG('Projetas_Aviation', start_date = datetime(2022,9,1),
     )
 
     # Define a ordem de execução das tasks
-    Tcia >> Taero >> Tvra >> \
+    Tcia >> Taero >> Tvra
     Tvra >> Label("Não encontrou arquivos VRA") >> Tsem_vra
-    Tvra >> Label("Encontrou aruquivos VRA") >> Tapura_cia >> Tapura_rota
+    Tvra >> Label("Encontrou arquivos VRA") >> Tapura_cia >> Tapura_rota
